@@ -17,7 +17,7 @@ struct Node {
     }
 };
 
-// Author : Krish Nariya
+
 // Function to build min-heap with data given
 // chr[] - array of unique characters
 // freq[] - array of frequencies of unique characters
@@ -47,7 +47,7 @@ Node* buildHuffman(priority_queue<Node> minHeap){
 }
 //--------END--------
 
-// Author : Piyusha
+
 // Function to print huffman codes
 unordered_map<char,string> huffmanCodes;
 unordered_map<char,string> HuffmanCodes(Node* root,string code=""){
@@ -62,7 +62,7 @@ unordered_map<char,string> HuffmanCodes(Node* root,string code=""){
 	return huffmanCodes;
 }
 //--------END-------
-// Author : Dave
+
 // Function to substitude the huffman codes(compressor)
 void compressor(string f_name,const std::string& outputFileName) {
     // Open the output file for writing
@@ -119,7 +119,7 @@ void compressor(string f_name,const std::string& outputFileName) {
     std::cout << "File compressed successfully." << std::endl;
 }
 //--------END---------
-// Author : Nivedha
+
 // Function to decompress the text file
 // it takes the file to be decompressed as argument
 void decompressor(string& inputFileName) {
@@ -195,7 +195,7 @@ void decompressor(string& inputFileName) {
 
 // --------END--------
 
-// Author : Aakarsh Lohani
+
 // UTILITY FUNCTIONS
 // Function to store unique characters in a character array
 vector<char> buildChar(unordered_map<char, int> map) {
@@ -245,7 +245,7 @@ unordered_map<char, int> countChar(string& file_name) {
 
 // --------END--------
 
-// Author : Priyam
+
 // integration of all the functions and debugging
 int main() {
     int ch;
